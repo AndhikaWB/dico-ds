@@ -1,0 +1,8 @@
+pandas
+streamlit
+plotly
+nbformat
+folium
+streamlit_folium
+# seaborn
+# duckdb
