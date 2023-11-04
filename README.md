@@ -13,3 +13,9 @@ pip install -r requirements.txt
 ``` sh
 streamlit run ./app.py
 ```
+
+Link Streamlit Cloud bisa diakses di [sini](https://dico-ds-i2gxvjkzmpxuk9gm96rrea.streamlit.app/).
+
+## Screenshot
+
+![Screenshot](_misc/streamlit_localhost.png)

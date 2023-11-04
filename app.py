@@ -246,19 +246,5 @@ fig_q4.update_layout(
 st.plotly_chart(fig_q4)
 st.caption('Double click legend untuk fokus ke bulan tertentu')
 
-# ============================================
-# Kesimpulan
-# ============================================
-
-st.header('Conclusion')
-st.markdown(
-'''
-- **Pertanyaan 1:** Produk yang paling diminati (3 besar) adalah `aca2eb`, `99a478`, dan `422879`. Masing-masing produk tersebut berharga rata-rata 71, 88, dan 55 (R$). Lalu, ketiga produk tersebut juga memiliki kategori yang berbeda, yaitu furniture/decoration, bed/bath/table, dan garden tools
-- **Pertanyaan 2:** Kategori produk yang paling diminati adalah `bed/bath/table` dengan persentase 9.87% (11k produk), `health & beauty` dengan persentase 8.58% (9k produk), dan `sports leisure` dengan persentase 7.67% (8k produk)
-- **Pertanyaan 3:** Wilayah yang paling menguntungkan adalah `Sao Paulo`, `Rio de Janeiro`, dan `Belo Horizonte`. Lalu, terlihat juga bahwa keuntungan ketiga kota tersebut didominasi oleh customer dengan klasifikasi spent_rate `high` (meskipun jumlah akunnya lebih sedikit daripada akun dengan rate di bawahnya yaitu `low` dan `med`)
-- **Pertanyaan 4:** Jumlah pembelian (order) akan cenderung menurun di 3/4 bulan (minggu terakhir bulan), namun pola dan pengaruhnya tidak terlalu signifikan. Terlihat juga bulan November 2017 merupakan bulan yang paling menguntungkan dengan jumlah pembelian sebanyak 7451 buah (R$ 1,010,271)
-'''
-)
-
 # Untuk menghentikan cycle Streamlit (apabila lambat)
 st.stop()
